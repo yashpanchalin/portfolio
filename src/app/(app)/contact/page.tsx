@@ -50,7 +50,7 @@ const ContactForm: React.FC = () => {
               toast.error(error);
               return;
             }
-            toast.success;
+            toast.success("Email Sent Successfully!");
           }}
           className="p-8 flex flex-col gap-4 rounded-lg"
         >
@@ -140,7 +140,7 @@ const ContactForm: React.FC = () => {
           <Button
             type="submit"
             disabled={isFormSubmitting}
-            className=" bg-gradient-to-b from-red-200 to-red-500 rounded py-2"
+            className=" bg-gradient-to-b from-neutral-200 to-neutral-500 rounded py-2"
           >
             Submit
           </Button>

@@ -26,7 +26,7 @@ export default function ContactFormEmail({
     <>
       <Html>
         <Head />
-        <Preview>New Message From your Protfolio Site</Preview>
+        <Preview>New Message From your Portfolio Site</Preview>
         <Tailwind>
           <Body>
             <Container>
